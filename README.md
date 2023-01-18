@@ -26,4 +26,4 @@ Dijkstra's algorithm does not work in graphs with negative weight cycles because
 
 In a negatively weighted cycle the total weight of the cycle is negative, meaning that the algorithm will find a path with a decreasing distance estimate, which will lead to an infinite loop. Hence, Dijkstra's algorithm will not terminate and will not give any meaningful result.
 
-**for this given question ,since the total weight of the cycle is positive (15) ,this cycle is treated as a non negative weighted graph and due to its uni directional path,djikstra's algorithm works for the given graph.if the graph is an negative weighted graph,this algorithms will not work**
+**for this given question ,since the total weight of the cycle is positive (15) ,this cycle is treated as a non negative weighted graph and due to its uni directional path,djikstra's algorithm works for the given graph.if the graph is an negative weighted graph,this algorithms will not work.an alternative of djikstra's algorithm is bellman-ford algorithm which will work for negative weighted graph**
