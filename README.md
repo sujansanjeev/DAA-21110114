@@ -20,3 +20,10 @@ Like Prim's algorithm, Kruskal's algorithm is designed to work on undirected gra
 
 **Therefore, Prim's/kruskal's algorithm cannot be used in directed graphs, as it is not designed to work with the characteristics of directed graphs.but the given graph is treated as an undirected graph even though it is an directed graph due to its uni-directional path and due to its weight distribution.if there is any change in the direction of the graph .this algorithm may not work**
 
+Dijkstra's algorithm is a shortest path algorithm that is typically used to find the shortest path from a source vertex to all other vertices in a non-negative weighted graph. It starts with the source vertex, and at each step relaxes the edges that connect the current vertex to its neighbors, by updating the distance estimates of the neighboring vertices if a shorter path is found.
+
+Dijkstra's algorithm does not work in graphs with negative weight cycles because it relies on the assumption that the weight of edges in the graph are non-negative. In graphs with negative weight cycles, there are paths with negative total weight, which means that the distance estimate can decrease indefinitely if the algorithm continues running.
+
+In a negatively weighted cycle the total weight of the cycle is negative, meaning that the algorithm will find a path with a decreasing distance estimate, which will lead to an infinite loop. Hence, Dijkstra's algorithm will not terminate and will not give any meaningful result.
+
+**for this given question ,since the total weight of the cycle is positive (15) ,this cycle is treated as a non negative weighted graph and due to its uni directional path,djikstra's algorithm works for the given graph.if the graph is an negative weighted graph,this algorithms will not work**
