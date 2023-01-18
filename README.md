@@ -18,5 +18,5 @@ Kruskal's algorithm is a minimum spanning tree algorithm that is typically used 
 
 Like Prim's algorithm, Kruskal's algorithm is designed to work on undirected graphs and cannot be used on directed graphs. The main reason is that the edges in a directed graph have a specific direction, while the edges in an undirected graph do not.
 
-**Therefore, Prim's/kruskal's algorithm cannot be used in directed graphs, as it is not designed to work with the characteristics of directed graphs.but the given graph is treated as an undirected graph even though it is an directed graph due to its uni-directional path and due to its weight distribution.if there is any change in tha direction of the graph .this algorithm may not work**
+**Therefore, Prim's/kruskal's algorithm cannot be used in directed graphs, as it is not designed to work with the characteristics of directed graphs.but the given graph is treated as an undirected graph even though it is an directed graph due to its uni-directional path and due to its weight distribution.if there is any change in the direction of the graph .this algorithm may not work**
 
