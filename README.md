@@ -14,5 +14,5 @@ In a directed graph, the edges have a specific direction and weight, and the pat
 
 Additionally, in undirected graph the edges are bidirectional and they connect two vertices in both directions, while in directed graph the edges are unidirectional and they connect two vertices only in one direction.
 
-*Therefore, Prim's algorithm cannot be used in directed graphs, as it is not designed to work with the characteristics of directed graphs.but the given graph is treated as an undirected graph even though it is an directed graph due to its uni-directional path and due to its weight distribution.if there is any change in tha direction of the graph .this algorithm may not work*
+**Therefore, Prim's algorithm cannot be used in directed graphs, as it is not designed to work with the characteristics of directed graphs.but the given graph is treated as an undirected graph even though it is an directed graph due to its uni-directional path and due to its weight distribution.if there is any change in tha direction of the graph .this algorithm may not work**
 
